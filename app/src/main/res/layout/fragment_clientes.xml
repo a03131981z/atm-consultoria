@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_clientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="351dp"
+        android:layout_height="628dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="30dp"
+        android:text="Lista: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel diam tempus, lobortis quam eget, ullamcorper nunc. Donec id velit euismod, lacinia elit non, varius ipsum. Donec ornare lacus vel porttitor auctor. Pellentesque tempus lacus nec elit malesuada, sed maximus leo efficitur. Phasellus ullamcorper elit sed varius viverra. Quisque egestas neque ut massa pulvinar tristique. Nunc dictum urna in libero tristique pretium. Donec sed ante ac dolor tempus dictum sed vel dui. Aenean tristique leo nec bibendum placerat. In suscipit ligula et est tincidunt sodales. Ut convallis justo sed lectus luctus bibendum eu a magna. Etiam eu massa sollicitudin, finibus est ut, tincidunt nisl. Integer at ante eu sem efficitur convallis. Aliquam in nunc id tortor lobortis aliquet."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_clientes" />
+</androidx.constraintlayout.widget.ConstraintLayout>
