@@ -12,25 +12,22 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:text="@string/menu_clientes"
         android:textAlignment="center"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="351dp"
-        android:layout_height="628dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="35dp"
-        android:layout_marginRight="35dp"
-        android:layout_marginBottom="30dp"
-        android:text="Lista: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel diam tempus, lobortis quam eget, ullamcorper nunc. Donec id velit euismod, lacinia elit non, varius ipsum. Donec ornare lacus vel porttitor auctor. Pellentesque tempus lacus nec elit malesuada, sed maximus leo efficitur. Phasellus ullamcorper elit sed varius viverra. Quisque egestas neque ut massa pulvinar tristique. Nunc dictum urna in libero tristique pretium. Donec sed ante ac dolor tempus dictum sed vel dui. Aenean tristique leo nec bibendum placerat. In suscipit ligula et est tincidunt sodales. Ut convallis justo sed lectus luctus bibendum eu a magna. Etiam eu massa sollicitudin, finibus est ut, tincidunt nisl. Integer at ante eu sem efficitur convallis. Aliquam in nunc id tortor lobortis aliquet."
+        android:layout_width="327dp"
+        android:layout_height="540dp"
+        android:text="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_clientes" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
